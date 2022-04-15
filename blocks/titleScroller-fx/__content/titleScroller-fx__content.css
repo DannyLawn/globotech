@@ -1,0 +1,5 @@
+.titleScroller-fx__content {
+  position: absolute;
+  top: 100%;
+  animation: scroller 140s linear 12s;
+}

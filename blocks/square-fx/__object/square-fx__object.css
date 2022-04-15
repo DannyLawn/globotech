@@ -1,0 +1,6 @@
+.square-fx__object {
+  width: 20px;
+  height: 20px;
+  background-color: #26FFAF;
+  animation:  move-object 6s ease-in-out 0s infinite;
+}

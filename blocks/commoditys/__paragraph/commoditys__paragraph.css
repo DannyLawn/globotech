@@ -1,0 +1,10 @@
+.commoditys__paragraph {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: normal;
+  padding: 20px 40px 40px 40px;
+  color: inherit;
+}

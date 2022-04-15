@@ -1,0 +1,9 @@
+.bacterium-fx__dots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 490px;
+  height: 460px;
+  margin-top: -245px;
+  margin-left: -240px;
+}

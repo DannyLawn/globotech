@@ -1,0 +1,17 @@
+@keyframes move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 0;
+  }
+}
+
+@-webkit-keyframes move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 0;
+  }
+}

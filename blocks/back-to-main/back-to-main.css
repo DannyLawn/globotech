@@ -1,0 +1,13 @@
+.back-to-main{
+position: absolute;
+top: 5px;
+left: 10px;
+height: 40px;
+opacity: 1;
+transition: opacity 0.2s linear;
+z-index: 3;
+}
+
+.back-to-main:hover {
+  opacity: 0.7;
+}

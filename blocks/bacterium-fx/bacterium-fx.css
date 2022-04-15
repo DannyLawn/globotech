@@ -1,0 +1,8 @@
+.bacterium-fx {
+  width: 490px;
+  height: 350px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(0, 50%);
+}

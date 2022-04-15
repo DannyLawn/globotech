@@ -1,0 +1,4 @@
+.line-fx__row_size_xs {
+  background-image: url(../../../../images/effects/line_xs.svg);
+  animation: move 5s linear infinite alternate;
+}

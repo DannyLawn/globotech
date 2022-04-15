@@ -1,0 +1,11 @@
+@keyframes slide {
+  0% { left:85% }
+  50% { left:45%; }
+  100% { left:85%; }
+}
+
+@-webkit-keyframes slide {
+  0% { left:85% }
+  50% { left:45%; }
+  100% { left:85%; }
+}

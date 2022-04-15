@@ -1,0 +1,7 @@
+.bacterium-fx__star_size_s {
+  width: 310px;
+  height: 310px;
+  margin-left: -155px;
+  margin-top: -155px;
+  animation: rotation 40s infinite linear;
+}

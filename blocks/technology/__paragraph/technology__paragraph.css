@@ -1,0 +1,11 @@
+.technology__paragraph {
+  min-width: 330px;
+  max-width: 330px;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: default;
+  margin: 0;
+  color: rgb(78, 78, 78);
+  text-align: center;
+}
