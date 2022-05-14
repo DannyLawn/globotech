@@ -1,9 +1,9 @@
 .footer__social-item {
   list-style: none;
   margin-bottom: 10px;
-  transition: opacity 0.2s linear;
+  transition: opacity .3s ease-in-out;
 }
 
 .footer__social-item:hover {
-  opacity: 0.7;
+  opacity: .7;
 }
