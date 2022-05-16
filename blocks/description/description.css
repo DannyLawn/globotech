@@ -1,7 +1,7 @@
 .description {
   background-color: #EEE;
   color: rgb(41, 41, 41);
-  box-sizing: border-box;
   position: relative;
-  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }

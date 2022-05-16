@@ -1,0 +1,11 @@
+.content__description {
+  box-sizing: border-box;
+  min-width: 320px;
+  padding: 40px 40px 0;
+}
+
+@media screen and (max-width: 575px) {
+  .content__description {
+    padding: 30px 15px 0;
+  }
+}

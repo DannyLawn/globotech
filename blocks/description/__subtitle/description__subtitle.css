@@ -2,12 +2,26 @@
   line-height: 19px;
   font-size: 16px;
   font-weight: normal;
-  margin: 30px 0 0 40px;
+  margin: 0;
   text-align: left;
   max-width: 420px;
-  position: absolute;
+  display: block;
+  position: relative;
   cursor: default;
-  left: 0;
-  top: 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .description__subtitle {
+    margin-left: 0;
+    text-align: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .description__subtitle {
+    font-size: 15px;
+    max-width: 285px;
+  }
 }

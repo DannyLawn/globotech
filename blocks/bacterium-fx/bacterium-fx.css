@@ -1,8 +1,14 @@
 .bacterium-fx {
-  width: 490px;
-  height: 350px;
+  width: 100%;
+  min-height: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
   transform: translate(0, 50%);
+}
+
+@media screen and (max-width: 575px) {
+  .bacterium-fx {
+    transform: scale(.64) translate(0, 75%);
+  }
 }

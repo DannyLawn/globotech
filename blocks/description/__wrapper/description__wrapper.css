@@ -1,7 +1,21 @@
 .description__wrapper {
   width: 490px;
-  margin: auto;
-  min-height: 265px;
+  height: 244px;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  .description__wrapper {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .description__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    height: 175px;
+  }
 }

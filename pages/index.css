@@ -1,6 +1,7 @@
 @import url(../vendor/Normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/logo/logo.css);
@@ -9,8 +10,11 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__nav-items/header__nav-items.css);
 @import url(../blocks/header/__nav-item/header__nav-item.css);
+
 @import url(../blocks/content/content.css);
+
 @import url(../blocks/description/description.css);
+@import url(../blocks/content/__description/content__description.css);
 @import url(../blocks/description/__wrapper/description__wrapper.css);
 @import url(../blocks/description/__subtitle/description__subtitle.css);
 @import url(../blocks/bacterium-fx/bacterium-fx.css);
