@@ -1,0 +1,15 @@
+.footer__social-items {
+  padding-top: 25px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__social-items {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+}

@@ -1,7 +1,15 @@
 .footer {
-  min-height: 200px;
+  box-sizing: border-box;
+  padding: 40px;
   background-color: #111;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
 }

@@ -1,6 +1,13 @@
 .footer__social-image {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 32px;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__social-image {
+    width: 24px;
+    height: 28px;
+  }
 }

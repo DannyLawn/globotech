@@ -9,14 +9,13 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>GLOBOTECH</title>
 </head>
-<body>
-  <div class="page">
-    <header class="header page_container_centered">
+<body class="page">
+  <header class="header page__header">
       <div class="logo"></div>
       <nav class="header__nav">
         <ul class="header__nav-items">
           <a href="about-us.html" class="header__nav-link">
-            <li class="header__nav-item">About the company</li>
+            <li class="header__nav-item">About us</li>
           </a>
           <a href="#" class="header__nav-link">
             <li class="header__nav-item">Services</li>
@@ -29,7 +28,7 @@
           </a>
         </ul>
       </nav>
-    </header>
+  </header>
     
     <main class="content">
       <section class="description">
@@ -80,13 +79,13 @@
               <div class="roundAround-fx__circle"></div>
               <div class="roundAround-fx__circle"></div>
             </div>
-            <p class="technology__paragraph technology__paragraph_number_1">We use advanced technology. Our sites are fully responsive. Users will get a pleasant experience on any screen resolutions.</p>
+            <p class="technology__paragraph">We use advanced technology. Our sites are fully responsive. Users will get a pleasant experience on any screen resolutions.</p>
           </div>
           <div class="technology__column">
             <div class="square-fx">
               <div class="square-fx__object"></div>
             </div>
-            <p class="technology__paragraph technology__paragraph_number_2">Let's create an original design. This will reflect your personality and make a clear advantage among all competitors.</p>
+            <p class="technology__paragraph">Let's create an original design. This will reflect your personality and make a clear advantage among all competitors.</p>
           </div>
         </div>
       </section>
@@ -100,27 +99,27 @@
         </div>
       </section>
     </main>
-
-    <footer class="footer">
-      <nav class="footer__nav-social">
+    <footer class="footer page__footer">
+      <div class="footer__social-container">
         <h3 class="footer__social-title">Social network</h3>
-        <ul class="footer__social-items">
-          <a href="#" class="footer__social-item-link">
+        <nav class="footer__nav-social">
+          <ul class="footer__social-items">
             <li class="footer__social-item">
-              <img class="footer__social-image" src="./images/social/vk_white.svg" alt="Logo VK.">Vkontakte
+              <a href="#" class="footer__social-item-link">
+                <img class="footer__social-image" src="./images/social/vk_white.svg" alt="Logo VK.">Vkontakte
+              </a>
             </li>
-          </a>
-          <a href="#" class="footer__social-item-link">
             <li class="footer__social-item">
-              <img class="footer__social-image" src="./images/social/instagram_white.svg" alt="Logo polaroid.">Instagram
+              <a href="#" class="footer__social-item-link">
+                <img class="footer__social-image" src="./images/social/instagram_white.svg" alt="Logo polaroid.">Instagram
+              </a>
             </li>
-          </a>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      </div>   
       <a href="#" class="footer__logo-link">
-        <div class="logo logo_place_footer"></div>
+        <div class="logo logo_color-white"></div>
       </a>
     </footer>
-  </div>
 </body>
 </html>

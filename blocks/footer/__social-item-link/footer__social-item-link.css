@@ -1,7 +1,18 @@
 .footer__social-item-link {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
+  transition: opacity .3s ease-in-out;
+}
+
+.footer__social-item-link:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__social-item-link {
+    font-size: 13px;
+  }
 }

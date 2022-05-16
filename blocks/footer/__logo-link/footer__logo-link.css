@@ -1,7 +1,6 @@
 .footer__logo-link {
   text-decoration: none;
   transition: opacity 0.2s linear;
-  margin-right: 60px;
 }
 
 .footer__logo-link:hover {

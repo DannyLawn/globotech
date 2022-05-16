@@ -1,5 +1,19 @@
 .footer__social-title {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
+  margin: 0;
+  letter-spacing: .4px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer__social-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer__social-title {
+    font-size: 16px;
+  }
 }

@@ -2,3 +2,10 @@
   list-style: none;
   display: flex;
 }
+
+@media screen and (max-width: 575px) {
+  .header__nav-items {
+    flex-direction: column;
+    text-align: center;
+  }
+}

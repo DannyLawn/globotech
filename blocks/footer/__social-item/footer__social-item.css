@@ -1,9 +1,17 @@
 .footer__social-item {
-  list-style: none;
-  margin-bottom: 10px;
-  transition: opacity .3s ease-in-out;
+  padding-right: 35px;
 }
 
-.footer__social-item:hover {
-  opacity: .7;
+.footer__social-item:last-of-type {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__social-item {
+    padding: 15px 0 0; 
+  }
+
+  .footer__social-item:first-of-type {
+    padding: 0; 
+  }
 }

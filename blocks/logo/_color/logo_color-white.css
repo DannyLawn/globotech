@@ -1,0 +1,23 @@
+.logo_color-white {
+  background-image: url(../../../images/logo_white.png);
+  background-position: center;
+  width: 220px;
+  height: 64px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 991px) {
+  .logo_color-white {
+    width: 200px;
+    height: 58px;
+    margin: 40px 0 0;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .logo_color-white {
+    width: 154px;
+    height: 46px;
+  }
+}

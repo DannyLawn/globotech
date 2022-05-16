@@ -1,10 +1,10 @@
 @import url(../vendor/Normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_container/page_container_centered.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_color/logo_color-white.css);
 @import url(../blocks/header/__nav-link/header__nav-link.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__nav-items/header__nav-items.css);
@@ -41,8 +41,6 @@
 @import url(../blocks/roundAround-fx/_slide-animation/roundAround-fx_slide-animation.css);
 @import url(../blocks/roundAround-fx/__circle/roundAround-fx__circle.css);
 @import url(../blocks/technology/__paragraph/technology__paragraph.css);
-@import url(../blocks/technology/__paragraph/_number/technology__paragraph_number_1.css);
-@import url(../blocks/technology/__paragraph/_number/technology__paragraph_number_2.css);
 @import url(../blocks/square-fx/square-fx.css);
 @import url(../blocks/square-fx/__object/square-fx__object.css);
 @import url(../blocks/square-fx/_move-object-animation/square-fx__move-object-animation.css);
@@ -55,7 +53,10 @@
 @import url(../blocks/line-fx/__row/_size/line-fx__row_size_m.css);
 @import url(../blocks/line-fx/__row/_size/line-fx__row_size_l.css);
 @import url(../blocks/line-fx/_move-animation/line-fx_move-animation.css);
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/footer/__social-container/footer__social-comtainer.css);
 @import url(../blocks/footer/__nav-social/footer__nav-social.css);
 @import url(../blocks/footer/__social-title/footer__social-title.css);
 @import url(../blocks/footer/__social-items/footer__social-items.css);

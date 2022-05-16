@@ -1,7 +1,20 @@
 .header {
-  min-height: 160px;
   background-color: #f5f4f4;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    padding: 5px 0 15px;
+  }
 }
