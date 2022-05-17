@@ -75,8 +75,8 @@
   animation:slide 3.4s ease-in-out infinite;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .roundAround-fx__circle {
-    transform: scale(.8);
+    transform: scale(.7);
   }
 }

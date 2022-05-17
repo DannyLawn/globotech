@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 575px) {
   .bacterium-fx {
-    transform: scale(.64) translate(0, 75%);
+    transform: scale(.64) translate(-2%, 75%);
   }
 }

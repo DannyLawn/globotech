@@ -31,6 +31,7 @@
 @import url(../blocks/products/products.css);
 
 @import url(../blocks/technology/technology.css);
+@import url(../blocks/content/__technology/content__technology.css);
 @import url(../blocks/technology/__columns/technology__columns.css);
 @import url(../blocks/technology/__items/technology__items.css);
 @import url(../blocks/technology/__item/technology__item.css);

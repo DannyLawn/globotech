@@ -14,12 +14,14 @@
   .technology__paragraph {
     max-width: 220px;
     font-size: 13px;
+    margin: 0 auto;
   }
   
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .technology__paragraph {
+    max-width: 200px;
     padding-top: 0;
     font-size: 12px;
   }
