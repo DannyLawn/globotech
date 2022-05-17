@@ -1,3 +1,15 @@
 .line-fx__row {
-  height: 14px;
+  height: 12px;
+}
+
+@media screen and (max-width: 991px) {
+  .line-fx__row {
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .line-fx__row {
+    height: 8px;
+  }
 }
