@@ -3,6 +3,7 @@
   position:absolute;
   top:50%; left:75%;
   overflow: visible;
+  transform: translateY(25%);
 }
 .roundAround-fx__circle:nth-of-type(odd) {
   background:#26FFAF;
@@ -72,4 +73,10 @@
   margin-top:-60px; margin-left:-100px;
   -webkit-animation:slide 3s ease-in-out infinite;
   animation:slide 3.4s ease-in-out infinite;
+}
+
+@media screen and (max-width: 767px) {
+  .roundAround-fx__circle {
+    transform: scale(.8);
+  }
 }

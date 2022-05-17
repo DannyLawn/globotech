@@ -1,9 +1,0 @@
-.commoditys__item {
-  box-sizing: border-box;
-  width: 650px;
-  height: 400px;
-  border-radius: 50%;
-  box-shadow: 0 2px 10px black;
-  cursor: default;
-  overflow: hidden;
-}

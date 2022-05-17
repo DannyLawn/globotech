@@ -1,5 +1,4 @@
 .technology__paragraph {
-  min-width: 330px;
   max-width: 330px;
   line-height: 21px;
   font-size: 14px;
@@ -8,4 +7,20 @@
   margin: 0;
   color: rgb(78, 78, 78);
   text-align: center;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .technology__paragraph {
+    max-width: 220px;
+    font-size: 13px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .technology__paragraph {
+    padding-top: 0;
+    font-size: 12px;
+  }
 }

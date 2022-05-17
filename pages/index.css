@@ -29,18 +29,11 @@
 @import url(../blocks/bacterium-fx/_rotation-animation/bacterium-fx__rotation-animation.css);
 
 @import url(../blocks/products/products.css);
-@import url(../blocks/commoditys/commoditys.css);
-@import url(../blocks/commoditys/__item/commoditys__item.css);
-@import url(../blocks/commoditys/__text/commoditys__text.css);
-@import url(../blocks/commoditys/__title/commoditys__title.css);
-@import url(../blocks/commoditys/__paragraph/commoditys__paragraph.css);
-@import url(../blocks/commoditys/__item/_img/commoditys__item_img_develop.css);
-@import url(../blocks/commoditys/__item/_img/commoditys__item_img_design.css);
-
 
 @import url(../blocks/technology/technology.css);
 @import url(../blocks/technology/__columns/technology__columns.css);
-@import url(../blocks/technology/__column/technology__column.css);
+@import url(../blocks/technology/__items/technology__items.css);
+@import url(../blocks/technology/__item/technology__item.css);
 @import url(../blocks/roundAround-fx/roundAround-fx.css);
 @import url(../blocks/roundAround-fx/_slide-animation/roundAround-fx_slide-animation.css);
 @import url(../blocks/roundAround-fx/__circle/roundAround-fx__circle.css);
