@@ -1,7 +1,7 @@
 @import url(../vendor/Normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_location/page_location_about-us.css);
+@import url(../blocks/page/_position/page_position-aboutUs.css);
 
 @import url(../blocks/back-to-main/back-to-main.css);
 @import url(../blocks/back-to-main/__link/back-to-main__linl.css);
