@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 991px) {
   .description__subtitle {
-    margin-left: 0;
+    margin:0 0 40px;
     text-align: center;
     align-self: center;
   }
@@ -23,5 +23,6 @@
   .description__subtitle {
     font-size: 15px;
     max-width: 285px;
+    margin-bottom: 20px;
   }
 }
