@@ -12,3 +12,15 @@
   opacity: 0;
   animation: intro 5s ease-out 0.5s;
 }
+
+@media screen and (max-width: 767px) {
+  .titleScroller-fx__intro {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .titleScroller-fx__intro {
+    font-size: 22px;
+  }
+}

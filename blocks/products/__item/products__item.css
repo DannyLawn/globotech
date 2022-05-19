@@ -1,9 +1,16 @@
 .products__item {
   border: 1px solid #acacac;
-  width: 282px;
-  height: 250px;
+  width: 350px;
+  min-height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  .products__item {
+    width: 100%;
+    aspect-ratio: 7 / 5;
+  }
 }
