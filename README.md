@@ -1,6 +1,5 @@
 Language - ENG :statue_of_liberty:    
-# Globotech - my web studio project
-### __[Project page](https://dannylawn.github.io/Globotech/index.html "Go to the website")__
+# Globotech - my web studio project [go to the website](https://dannylawn.github.io/Globotech/index.html "Go to the website")
 
 ## Description
 An adaptive service where you can order the development of websites and applications.
@@ -23,8 +22,7 @@ Optimization of viewing on screens from 320px to ∞. Created without layouts, t
 ***
     
 Language - RU :house_with_garden:        
-# Globotech - проект моей веб-студии
-### __[Страница проекта](https://dannylawn.github.io/Globotech/index.html "Перейти на сайт")__ 
+# Globotech - проект моей веб-студии [перейти на сайт](https://dannylawn.github.io/Globotech/index.html "Go to the website") 
 
 ## Описание
 Адаптивный сервис, на котором можно заказать разработку сайтов и приложений.
