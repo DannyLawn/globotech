@@ -1,0 +1,14 @@
+.projects__link {
+  display: block;
+  text-decoration: none;
+  background: url(../../../images/social/github.ico) center / contain no-repeat;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 15px auto 0;
+  transition: opacity .4s ease-in-out;
+}
+
+.projects__link:hover {
+  opacity: .6;
+}

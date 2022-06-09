@@ -1,0 +1,13 @@
+.products__text-container {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 20px;
+  transition: 1s .1s;
+}
+
+.products__item:hover .products__text-container {
+  background-color: rgba(0, 0, 0, 0.8);
+}

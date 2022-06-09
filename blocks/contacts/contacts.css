@@ -1,0 +1,15 @@
+.contacts {
+ padding: 117px 0;
+ background: linear-gradient(to bottom, #FFF 0%, #EEE 100%);
+ display: flex;
+ justify-content: center;
+ gap: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    padding: 100px 0;
+    flex-direction: column;
+    gap: 50px;
+  }
+}

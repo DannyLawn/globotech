@@ -1,0 +1,11 @@
+.projects__message-container {
+ max-width: 400px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .projects__message-container {
+    max-width: 280px;
+   }
+}

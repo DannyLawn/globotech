@@ -1,16 +1,20 @@
 .products__item {
-  border: 1px solid #acacac;
-  width: 350px;
-  min-height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 385px;
+  height: 260px;
   border-radius: 10px;
+  transition: transform 1s;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
 }
-
+ 
 @media screen and (max-width: 575px) {
   .products__item {
     width: 100%;
     aspect-ratio: 7 / 5;
   }
+}
+
+.products__item:hover {
+  transform: scale(1.1);
 }

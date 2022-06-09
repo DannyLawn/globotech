@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   width: 310px;
   height: 90px;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 575px) {
@@ -11,4 +14,8 @@
     width: 240px;
     height: 70px;
   }
+}
+ 
+.logo:hover {
+  opacity: 0.7;
 }
