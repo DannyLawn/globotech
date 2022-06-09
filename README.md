@@ -1,5 +1,5 @@
 ENG :statue_of_liberty:    
-# Globotech - my web studio project [[go to the website]](https://dannylawn.github.io/Globotech/index.html "Go to the website")
+# Globotech - my web studio project [[go to the website]](https://dannylawn.github.io/Globotech/ "Go to the website")
 
 ## Description
 An adaptive service where you can order the development of websites and applications.
@@ -22,7 +22,7 @@ Optimization of viewing on screens from 320px to ∞. Created by DannyLawn, the 
 ***
     
 RU :house_with_garden:        
-# Globotech - проект моей веб-студии [[перейти на сайт]](https://dannylawn.github.io/Globotech/index.html "Go to the website") 
+# Globotech - проект моей веб-студии [[перейти на сайт]](https://dannylawn.github.io/Globotech/ "Go to the website") 
 
 ## Описание
 Адаптивный сервис, на котором можно заказать разработку сайтов и приложений.
