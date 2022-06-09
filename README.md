@@ -1,4 +1,4 @@
-:us:
+Language - :us:    
 # Globotech - my web studio project
 ### __[Project page](https://dannylawn.github.io/Globotech/index.html "Go to the website")__
 ------
@@ -20,8 +20,9 @@ Optimization of viewing on screens from 320px to ∞. Created without layouts, t
 
 ### Improvement plans
 * Further development of existing and new sections
-
-:ru:
+    
+    
+Language - :ru:    
 # Globotech - мой проект веб-студии
 ### __[Страница проекта](https://dannylawn.github.io/Globotech/index.html "Перейти на сайт")__ 
 ------
