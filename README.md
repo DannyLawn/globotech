@@ -1,9 +1,9 @@
-Language - ENG :statue_of_liberty:    
+ENG :statue_of_liberty:    
 # Globotech - my web studio project [[go to the website]](https://dannylawn.github.io/Globotech/index.html "Go to the website")
 
 ## Description
 An adaptive service where you can order the development of websites and applications.
-Optimization of viewing on screens from 320px to ∞. Created without layouts, the logo and name are reserved.
+Optimization of viewing on screens from 320px to ∞. Created by DannyLawn, the logo and name are reserved.
 
 ### Technologies used
 * BEM file structure (Nested)
@@ -21,12 +21,12 @@ Optimization of viewing on screens from 320px to ∞. Created without layouts, t
   
 ***
     
-Language - RU :house_with_garden:        
+RU :house_with_garden:        
 # Globotech - проект моей веб-студии [[перейти на сайт]](https://dannylawn.github.io/Globotech/index.html "Go to the website") 
 
 ## Описание
 Адаптивный сервис, на котором можно заказать разработку сайтов и приложений.
-Оптимизация просмотра на экранах от 320px до ∞. Создан без макетов, логотип и название зарезервированы.
+Оптимизация просмотра на экранах от 320px до ∞. Создан DannyLawn, логотип и название зарезервированы.
 
 ### Используемые технологии
 * Файловая структура по БЭМ (Nested) 
