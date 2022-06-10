@@ -2,6 +2,7 @@
   background-image: linear-gradient(#e2e1e1, #eee);
   padding: 60px 0 100px;
   min-width: 320px;
+  min-height: 40vh;
 }
 
 @media screen and (max-width: 991px) {

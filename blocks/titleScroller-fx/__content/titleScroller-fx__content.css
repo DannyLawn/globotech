@@ -1,30 +1,31 @@
 .titleScroller-fx__content {
   position: absolute;
   top: 100%;
-  animation: scroller 160s linear 12s;
+  will-change: transform;
+  animation: scroller 240s linear 12s;
   width: 100%;
 }
 
 @media screen and (max-width: 992px) {
   .titleScroller-fx__content {
-    animation: scroller 120s linear 12s;
+    animation: scroller 170s linear 12s;
   }
 }
 
 @media screen and (max-width: 767px) {
   .titleScroller-fx__content {
-    animation: scroller 100s linear 12s;
+    animation: scroller 150s linear 12s;
   }
 }
 
 @media screen and (max-width: 575px) {
   .titleScroller-fx__content {
-    animation: scroller 80s linear 12s;
+    animation: scroller 120s linear 12s;
   }
 }
 
 @media screen and (max-width: 390px) {
   .titleScroller-fx__content {
-    animation: scroller 50s linear 12s;
+    animation: scroller 70s linear 12s;
   }
 }
