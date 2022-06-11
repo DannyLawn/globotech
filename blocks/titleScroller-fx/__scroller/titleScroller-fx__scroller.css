@@ -13,6 +13,6 @@
   left: 50%;
   margin-left: -12em;
   z-index: 0;
-  transform: perspective(300px) rotateX(25deg);
+  transform: perspective(200px) rotateX(25deg);
   transform-origin: 50% 100%;
 }
