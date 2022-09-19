@@ -1,5 +1,5 @@
 ENG :statue_of_liberty:    
-# Globotech - my web studio project [[go to the website]](https://dannylawn.github.io/Globotech/ "Go to the website")
+# Globotech - my web studio project [[go to the website]](https://dannylawn.github.io/globotech/ "Go to the website")
 
 ## Description
 An adaptive service where you can order the development of websites and applications.
