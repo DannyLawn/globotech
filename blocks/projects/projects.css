@@ -1,7 +1,7 @@
 .projects {
   box-sizing: border-box;
   padding: 70px 0 0;
-  background: linear-gradient(to bottom, #FFF 0%, #EEE 30%, #FFF 100%);
+  background-image: linear-gradient(#eee, #fff);
   min-width: 320px;
   min-height: 88%;
 }

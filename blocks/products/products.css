@@ -1,8 +1,8 @@
 .products {
-  background-image: linear-gradient(#e2e1e1, #eee);
+  background-image: linear-gradient(#eee, #fff);
   padding: 60px 0 70px;
   min-width: 320px;
-  min-height: 88%;
+  height: 100%;
 }
 
 @media screen and (max-width: 991px) {

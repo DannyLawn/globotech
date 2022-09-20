@@ -1,7 +1,7 @@
 .contacts {
  box-sizing: border-box;
  padding: 100px 0;
- background: linear-gradient(to bottom, #FFF 0%, #EEE 40% #FFF 100%);
+ background-image: linear-gradient(#eee, #fff);
  display: flex;
  justify-content: center;
  gap: 200px;

@@ -1,12 +1,7 @@
 .header__nav-link {
   text-decoration: none;
   color: rgb(41, 41, 41);
-  transition: opacity .3s ease-in-out;
   margin-right: 20px;
-}
-
-.header__nav-link:hover {
-  opacity: .6;
 }
 
 @media screen and (max-width: 991px) {
