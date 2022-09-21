@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
+  <title>Services</title>
+</head>
+<body class="page">
+  <header class="header page__header">
+    <a class="logo" href="./index.html"></a>
+    <nav class="header__nav">
+      <ul class="header__nav-items">
+        <a href="./about-us.html" class="header__nav-link header__link">
+          <li class="header__nav-item">About us</li>
+        </a>
+        <a href="#" class="header__nav-link header__nav-link_active header__link">
+          <li class="header__nav-item">Services</li>
+        </a>
+        <a href="./projects.html" class="header__nav-link header__link">
+          <li class="header__nav-item">Projects</li>
+        </a>
+        <a href="./contacts.html" class="header__nav-link header__link">
+          <li class="header__nav-item">Contacts</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="products">
+      <ul class="products__container">
+        <template class="product-template"> 
+          <li class="products__item">
+            <img class="products__image" src=" " alt="">
+            <div class="products__text-container">
+              <h1 class="products__title"></h1>
+              <p class="products__text"></p>
+            </div>
+          </li>
+        </template>
+      </ul> 
+    </section>
+  </main>
+
+  <section class="line-fx">
+    <div class="line-fx__item">
+      <div class="line-fx__row line-fx__row_size_l"></div>
+      <div class="line-fx__row line-fx__row_size_m"></div>
+      <div class="line-fx__row line-fx__row_size_s"></div>
+      <div class="line-fx__row line-fx__row_size_xs"></div>         
+    </div>
+  </section>
+
+  <footer class="footer page__footer">
+    <div class="footer__container">
+      <div class="footer__social-container">
+        <h3 class="footer__social-title">Social network</h3>
+        <nav class="footer__nav-social">
+          <ul class="footer__social-items">
+            <li class="footer__social-item">
+              <a href="https://vk.com/dannylawn" class="footer__social-item-link" target="_blank">
+                <img class="footer__social-image" src="<%=require('./images/social/vk_white.svg')%>" alt="Logo VK.">Vkontakte
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="https://instagram.com/danny_lawn" class="footer__social-item-link" target="_blank">
+                <img class="footer__social-image" src="<%=require('./images/social/instagram_white.svg')%>" alt="Logo polaroid.">Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>   
+      <a class="logo logo_color-white" href="#"></a>
+    </div>
+    <p class="footer__caption">© 2022 Globotech, Inc. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="./scripts/products.js"></script>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

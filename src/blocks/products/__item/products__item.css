@@ -1,0 +1,20 @@
+.products__item {
+  width: 390px;
+  height: 270px;
+  border-radius: 10px;
+  transition: transform 1s;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+ 
+@media screen and (max-width: 575px) {
+  .products__item {
+    width: 100%;
+    aspect-ratio: 7 / 5;
+  }
+}
+
+.products__item:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="HTML5, CSS">
+  <meta name="author" content="Daniil Nikitin">
+  <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
+  <title>GLOBOTECH</title>
+</head>
+<body class="page">
+  <header class="header page__header">
+      <a class="logo" href="./index.html"></a>
+      <nav class="header__nav">
+        <ul class="header__nav-items">
+          <a href="./about-us.html" class="header__nav-link header__link">
+            <li class="header__nav-item">About us</li>
+          </a>
+          <a href="./services.html" class="header__nav-link header__link">
+            <li class="header__nav-item">Services</li>
+          </a>
+          <a href="./projects.html" class="header__nav-link header__link">
+            <li class="header__nav-item">Projects</li>
+          </a>
+          <a href="./contacts.html" class="header__nav-link header__link">
+            <li class="header__nav-item">Contacts</li>
+          </a>
+        </ul>
+      </nav>
+  </header>
+    
+    <main class="content">
+      <section class="description content__description">
+        <p class="description__subtitle">Website development for your target audience. Just&nbsp;what the business needs. Nothing superfluous.</p>
+        <div class="description__wrapper">
+          <div class="bacterium-fx">
+            <img src="<%=require('./images/effects/star_1.svg')%>" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_s">
+            <img src="<%=require('./images/effects/star_2.svg')%>" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_m">
+            <img src="<%=require('./images/effects/star_3.svg')%>" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_l">
+            <img src="<%=require('./images/effects/dots_1.svg')%>" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_s">
+            <img src="<%=require('./images/effects/dots_2.svg')%>" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_m">
+            <img src="<%=require('./images/effects/dots_3.svg')%>" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_l">
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <ul class="products__container">
+          <template class="product-template"> 
+            <li class="products__item">
+              <img class="products__image" src=" " alt="">
+              <div class="products__text-container">
+                <h1 class="products__title"></h1>
+                <p class="products__text"></p>
+              </div>
+            </li>
+          </template>
+        </ul> 
+      </section>
+
+      <section class="technology content__technology">
+        <div class="technology__items">
+          <div class="technology__item">
+            <div class="roundAround-fx">
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+              <div class="roundAround-fx__circle"></div>
+            </div>
+            <p class="technology__paragraph">We use advanced technology. Our sites are fully responsive. Users will get a pleasant experience on any screen resolutions.</p>
+          </div>
+          <div class="technology__item">
+            <div class="square-fx">
+              <div class="square-fx__object"></div>
+            </div>
+            <p class="technology__paragraph">Let's create an original design. This will reflect your personality and make a clear advantage among all competitors.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="line-fx">
+      <div class="line-fx__item">
+        <div class="line-fx__row line-fx__row_size_l"></div>
+        <div class="line-fx__row line-fx__row_size_m"></div>
+        <div class="line-fx__row line-fx__row_size_s"></div>
+        <div class="line-fx__row line-fx__row_size_xs"></div>         
+      </div>
+    </section>
+
+    <footer class="footer page__footer">
+      <div class="footer__container">
+        <div class="footer__social-container">
+          <h3 class="footer__social-title">Social network</h3>
+          <nav class="footer__nav-social">
+            <ul class="footer__social-items">
+              <li class="footer__social-item">
+                <a href="https://vk.com/dannylawn" class="footer__social-item-link" target="_blank">
+                  <img class="footer__social-image" src="<%=require('./images/social/vk_white.svg')%>" alt="Logo VK.">Vkontakte
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="https://instagram.com/danny_lawn" class="footer__social-item-link" target="_blank">
+                  <img class="footer__social-image" src="<%=require('./images/social/instagram_white.svg')%>" alt="Logo polaroid.">Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>   
+        <a class="logo logo_color-white" href="#"></a>
+      </div>
+      <p class="footer__caption">© 2022 Globotech, Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

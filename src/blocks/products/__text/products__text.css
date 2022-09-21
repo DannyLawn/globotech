@@ -1,0 +1,32 @@
+.products__text {
+  line-height: 26px;
+  font-size: 16px;
+  margin: 0;
+  padding: 30px;
+  color: #b9b9b9;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  will-change: transform, opacity;
+  transform: translateY(200%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s .1s ease-in-out, visibility 1s .1s, transform 1s .1s;
+  will-change: transform, opacity;
+}
+
+.products__item:hover .products__text {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 576px) {
+  .products__text{
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    color: #c2c1c1;
+  }
+}
