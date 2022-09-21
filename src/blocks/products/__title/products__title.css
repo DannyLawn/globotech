@@ -5,9 +5,10 @@
   text-transform: uppercase;
   margin: 0;
   display: block;
+  user-select: none;
+  will-change: transform, opacity;
   transform: translateY(100px);
   transition: 1s ease-in-out;
-  will-change: transform, opacity;
   letter-spacing: 1.5px;
 }
 
