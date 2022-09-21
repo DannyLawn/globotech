@@ -10,6 +10,7 @@ Optimization of viewing on screens from 320px to ∞. Created by DannyLawn, the 
 * Hypertext HTML markup
 * Cascading CSS style sheets
 * JavaScript
+* Webpack
 
 ### Implementation
 * FlexBox and GridLayout, for building grids and alignment
@@ -33,6 +34,7 @@ RU :house_with_garden:
 * Гипертекстовая разметка HTML 
 * Каскадные таблицы стилей CSS
 * JavaScript
+* Webpack
 
 ### Реализация
 * FlexBox и GridLayout, для построения сеток и выравнивания
