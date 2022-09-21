@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Daniil Nikitin">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
   <title>GLOBOTECH</title>
 </head>
 <body class="page">
@@ -35,12 +34,12 @@
         <p class="description__subtitle">Website development for your target audience. Just&nbsp;what the business needs. Nothing superfluous.</p>
         <div class="description__wrapper">
           <div class="bacterium-fx">
-            <img src="./images/effects/star_1.svg" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_s">
-            <img src="./images/effects/star_2.svg" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_m">
-            <img src="./images/effects/star_3.svg" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_l">
-            <img src="./images/effects/dots_1.svg" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_s">
-            <img src="./images/effects/dots_2.svg" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_m">
-            <img src="./images/effects/dots_3.svg" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_l">
+            <img src="<%=require('./images/effects/star_1.svg')%>" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_s">
+            <img src="<%=require('./images/effects/star_2.svg')%>" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_m">
+            <img src="<%=require('./images/effects/star_3.svg')%>" alt="svg star" class="bacterium-fx__star bacterium-fx__star_size_l">
+            <img src="<%=require('./images/effects/dots_1.svg')%>" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_s">
+            <img src="<%=require('./images/effects/dots_2.svg')%>" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_m">
+            <img src="<%=require('./images/effects/dots_3.svg')%>" alt="svg dots" class="bacterium-fx__dots bacterium-fx__dots_size_l">
           </div>
         </div>
       </section>
@@ -92,28 +91,29 @@
         <div class="line-fx__row line-fx__row_size_xs"></div>         
       </div>
     </section>
-    <footer class="footer page__footer">
-      <div class="footer__social-container">
-        <h3 class="footer__social-title">Social network</h3>
-        <nav class="footer__nav-social">
-          <ul class="footer__social-items">
-            <li class="footer__social-item">
-              <a href="https://vk.com/dannylawn" class="footer__social-item-link" target="_blank">
-                <img class="footer__social-image" src="./images/social/vk_white.svg" alt="Logo VK.">Vkontakte
-              </a>
-            </li>
-            <li class="footer__social-item">
-              <a href="https://instagram.com/danny_lawn" class="footer__social-item-link" target="_blank">
-                <img class="footer__social-image" src="./images/social/instagram_white.svg" alt="Logo polaroid.">Instagram
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>   
-      <a class="logo logo_color-white" href="#"></a>
-    </footer>
 
-    <script src="./scripts/products.js"></script>
-    <script src="./scripts/index.js"></script>
+    <footer class="footer page__footer">
+      <div class="footer__container">
+        <div class="footer__social-container">
+          <h3 class="footer__social-title">Social network</h3>
+          <nav class="footer__nav-social">
+            <ul class="footer__social-items">
+              <li class="footer__social-item">
+                <a href="https://vk.com/dannylawn" class="footer__social-item-link" target="_blank">
+                  <img class="footer__social-image" src="<%=require('./images/social/vk_white.svg')%>" alt="Logo VK.">Vkontakte
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="https://instagram.com/danny_lawn" class="footer__social-item-link" target="_blank">
+                  <img class="footer__social-image" src="<%=require('./images/social/instagram_white.svg')%>" alt="Logo polaroid.">Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>   
+        <a class="logo logo_color-white" href="#"></a>
+      </div>
+      <p class="footer__caption">© 2022 Globotech, Inc. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>

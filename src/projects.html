@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./pages/projects.css">
+  <link rel="shortcut icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
   <title>Projects</title>
 </head>
 <body class="page">
@@ -49,24 +48,27 @@
   </section>
 
   <footer class="footer page__footer">
-    <div class="footer__social-container">
-      <h3 class="footer__social-title">Social network</h3>
-      <nav class="footer__nav-social">
-        <ul class="footer__social-items">
-          <li class="footer__social-item">
-            <a href="https://vk.com/dannylawn" class="footer__social-item-link" target="_blank">
-              <img class="footer__social-image" src="./images/social/vk_white.svg" alt="Logo VK.">Vkontakte
-            </a>
-          </li>
-          <li class="footer__social-item">
-            <a href="https://instagram.com/danny_lawn" class="footer__social-item-link" target="_blank">
-              <img class="footer__social-image" src="./images/social/instagram_white.svg" alt="Logo polaroid.">Instagram
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>   
-    <a class="logo logo_color-white" href="./index.html"></a>
+    <div class="footer__container">
+      <div class="footer__social-container">
+        <h3 class="footer__social-title">Social network</h3>
+        <nav class="footer__nav-social">
+          <ul class="footer__social-items">
+            <li class="footer__social-item">
+              <a href="https://vk.com/dannylawn" class="footer__social-item-link" target="_blank">
+                <img class="footer__social-image" src="<%=require('./images/social/vk_white.svg')%>" alt="Logo VK.">Vkontakte
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="https://instagram.com/danny_lawn" class="footer__social-item-link" target="_blank">
+                <img class="footer__social-image" src="<%=require('./images/social/instagram_white.svg')%>" alt="Logo polaroid.">Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>   
+      <a class="logo logo_color-white" href="#"></a>
+    </div>
+    <p class="footer__caption">© 2022 Globotech, Inc. All Rights Reserved.</p>
   </footer>
   
 </body>

@@ -60,6 +60,7 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__social-container/footer__social-comtainer.css);
 @import url(../blocks/footer/__nav-social/footer__nav-social.css);
 @import url(../blocks/footer/__social-title/footer__social-title.css);
@@ -67,3 +68,4 @@
 @import url(../blocks/footer/__social-item-link/footer__social-item-link.css);
 @import url(../blocks/footer/__social-item/footer__social-item.css);
 @import url(../blocks/footer/__social-image/footer__social-image.css);
+@import url(../blocks/footer/__caption/footer__caption.css);

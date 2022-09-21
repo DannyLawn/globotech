@@ -1,3 +1,6 @@
+import "../pages/index.css";
+import { initialProducts } from "../scripts/products.js";
+
 const productsContainer = document.querySelector('.products__container');
 
 function createProduct(object) {
@@ -18,5 +21,3 @@ function addProduct (newProduct) {
 initialProducts.forEach(product => {
   addProduct(createProduct(product));
 });
-
-

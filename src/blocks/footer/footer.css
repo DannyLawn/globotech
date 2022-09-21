@@ -1,23 +1,4 @@
 .footer {
   box-sizing: border-box;
-  padding: 45px 60px;
   background-color: #111;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@media screen and (max-width: 991px) {
-  .footer {
-    flex-direction: column;
-    padding-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .footer {
-    flex-direction: column;
-    padding-bottom: 20px;
-    padding-top: 40px;
-  }
 }
