@@ -5,10 +5,10 @@
   letter-spacing: .5px;
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
 }
 
 @media screen and (max-width: 1239px) {
@@ -20,5 +20,6 @@
 @media screen and (max-width: 575px) {
   .products__container {
     width: 100%;
+    padding: 0 30px;
   }
 }

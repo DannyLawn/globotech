@@ -1,6 +1,6 @@
 .products__item {
-  width: 390px;
-  height: 270px;
+  width: 420px;
+  aspect-ratio: 390 / 270;
   border-radius: 10px;
   transition: transform 1s;
   overflow: hidden;

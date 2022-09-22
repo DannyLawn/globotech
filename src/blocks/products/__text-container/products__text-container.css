@@ -6,6 +6,8 @@
   position: relative;
   padding: 20px;
   transition: 1s .1s;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .products__item:hover .products__text-container {
