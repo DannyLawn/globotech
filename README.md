@@ -1,7 +1,7 @@
        
 Проект: Globotech 
 --------
-[Страница поекта](https://dannylawn.github.io/Globotech) 
+[Страница поекта](https://dannylawn.github.io/globotech/) 
 
 ## Описание
 Адаптивный сервис, на котором можно заказать разработку сайтов и приложений.
