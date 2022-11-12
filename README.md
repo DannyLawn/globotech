@@ -1,29 +1,7 @@
-ENG :statue_of_liberty:    
-# Globotech - web studio project [[go to the website]](https://dannylawn.github.io/globotech/ "Go to the website")
-
-## Description
-An adaptive service where you can order the development of websites and applications.
-Optimization of viewing on screens from 320px to ∞. Created by DannyLawn, the logo and name are reserved.
-
-### Technologies used
-* BEM file structure (Nested)
-* Hypertext HTML markup
-* Cascading CSS style sheets
-* JavaScript
-* Webpack
-
-### Implementation
-* FlexBox and GridLayout, for building grids and alignment
-* Media queries to adapt to different screen resolutions
-* CSS animations
-
-### Improvement plans
-* Further development of existing and new sections
-  
-***
-    
-RU :house_with_garden:        
-# Globotech - проект моей веб-студии [[перейти на сайт]](https://dannylawn.github.io/Globotech/ "Go to the website") 
+       
+#Проект: Globotech 
+--------
+[[Страница поекта]](https://dannylawn.github.io/Globotech/ "Go to the website") 
 
 ## Описание
 Адаптивный сервис, на котором можно заказать разработку сайтов и приложений.
