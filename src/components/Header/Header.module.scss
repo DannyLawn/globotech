@@ -13,15 +13,15 @@
     background-image: url(../../images/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 310px;
-    height: 90px;
+    width: 300px;
+    aspect-ratio: 31 / 9;
     text-decoration: none;
     will-change: opacity, transform;
-    transition: transform .2s ease-in-out;
+    transition: transform .7s ease-in-out;
     cursor: pointer;
 
     &:hover {
-      transform: scale(1.02);
+      transform: scale(1.04);
     }
   }
 
@@ -53,14 +53,14 @@
 
   &__navItem {
     line-height: 24px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: normal;
     cursor: pointer;
     will-change: transform, opacity;
     transition: transform .9s ease-in, color .9s ease-in;
 
     &:hover {
-      transform: scale(1.11);
+      transform: scale(1.03);
       color: #000;
     }
   }
@@ -81,7 +81,7 @@
 
     &_active {
       pointer-events: none;
-      transform: scale(1.1);
+      transform: scale(1.03);
 
       &::after {
         position: absolute;

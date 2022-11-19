@@ -1,0 +1,47 @@
+.projects {
+  box-sizing: border-box;
+  padding: 70px 0 0;
+  background-image: linear-gradient(rgba(238, 238, 238, 0.44), #fff);
+  min-width: 320px;
+  min-height: 88%;
+
+  &__accent {
+    font-weight: 600;
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    background: url(../../images/social/github.ico) center / contain no-repeat;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 15px auto 0;
+    transition: opacity .4s ease-in-out;
+
+    &:hover {
+      opacity: .6;
+    }
+  }
+
+  &__messageContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__subscription {
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+    margin: 20px 0 0;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: #f18a8a;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+  }
+
+}

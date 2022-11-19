@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes logo {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(3.2);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+  }
+}
+
+@keyframes scroller {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -600%;
+  }
+}
+
+.titleScrollerFx {
+  &__content {
+    position: absolute;
+    top: 100%;
+    will-change: transform;
+    animation: scroller 340s linear 11s;
+    width: 100%;
+  }
+
+  &__intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.7rem;
+    width: 80%;
+    opacity: 0;
+    animation: intro 4s ease-out 0.5s;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    opacity: 0;
+    animation: logo 6s ease-out 6s;
+  }
+
+  &__scroller {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+    color:  #ffffff;
+    text-align: justify;
+    overflow: hidden;
+    height: 50em;
+    width: 24em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -12em;
+    z-index: 0;
+    transform: perspective(250px) rotateX(25deg);
+    transform-origin: 50% 100%;
+  }
+
+  &__text {
+    margin: 0;
+    color: inherit;
+    font-size: 3.5rem;
+    width: 100%;
+
+    &_copyright {
+      text-align: right;
+    }
+  }
+
+  &__title {
+    color: inherit;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+  }
+}

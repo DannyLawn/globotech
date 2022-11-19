@@ -1,0 +1,36 @@
+.contacts {
+  box-sizing: border-box;
+  padding: 100px 0;
+  background-image: linear-gradient(rgba(238, 238, 238, 0.44), #fff);
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  height: 88%;
+
+  &__description {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 0 0;
+    cursor: pointer;
+    color: black;
+    transition: opacity .4s linear;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+ }

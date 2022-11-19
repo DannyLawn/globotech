@@ -4,10 +4,10 @@
   flex: 0 0 auto;
 
   &__caption {
-    margin: 20px auto 0;
+    margin: 15px auto 0;
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 10px;
+    font-size: 9px;
     text-align: right;
     cursor: default;
   }
@@ -65,20 +65,15 @@
     font-weight: 600;
     margin: 0 0 20px;
     letter-spacing: .4px;
+    cursor: default;
   }
 
   &__logo {
     object-fit: contain;
-    width: 240px;
+    width: 200px;
     box-sizing: border-box;
     text-decoration: none;
-    will-change: opacity, transform;
-    transition: transform .2s ease-in-out;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.02);
-    }
+    cursor: default;
   }
 }
  
