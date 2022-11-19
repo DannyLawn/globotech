@@ -1,0 +1,97 @@
+@keyframes slide {
+  0% { left:85% }
+  50% { left:45%; }
+  100% { left:85%; }
+}
+
+@-webkit-keyframes slide {
+  0% { left:85% }
+  50% { left:45%; }
+  100% { left:85%; }
+}
+
+.roundAroundFx {
+  width: 240px;
+  height: 110px;
+  position: relative;
+  margin: auto;
+
+  &__circle {
+    border-radius:50%;
+    position:absolute;
+    top:50%; left:75%;
+    overflow: visible;
+    transform: translateY(25%);
+
+    &:nth-of-type(odd) {
+      background:#26FFAF;
+    }
+
+    &:nth-of-type(even) {
+      background: #5B5B5B; border:2px solid #707070;
+    }
+
+    &:nth-of-type(9) {
+      height:20px; width:20px;
+      margin-top: 20px; margin-left:-20px;
+      -webkit-animation:slide 3s -2.4s ease-in-out infinite;
+      animation:slide 3.4s -2.4s ease-in-out infinite;
+    }
+    &:nth-of-type(8) {
+      height:25px; width:25px;
+      margin-top: 8px; margin-left:-32px;
+      -webkit-animation:slide 3s -2.1s ease-in-out infinite;
+      animation:slide 3.4s -2.1s ease-in-out infinite;
+      background-image: url(../../images/technology/react.png);
+      background-size: contain;
+    }
+    &:nth-of-type(7) {
+      height:30px; width:30px;
+      margin-top: 0px; margin-left:-40px;
+      -webkit-animation:slide 3s -1.8s ease-in-out infinite;
+      animation:slide 3.4s -1.8s ease-in-out infinite;
+    }
+    &:nth-of-type(6) {
+      height:35px; width:35px;
+      margin-top:-12px; margin-left:-52px;
+      -webkit-animation:slide 3s -1.5s ease-in-out infinite;
+      animation:slide 3.4s -1.5s ease-in-out infinite;
+      background-image: url(../../images/technology/java-script.png);
+      background-size: contain;
+    }
+    &:nth-of-type(5) {
+      height:40px; width:40px;
+      margin-top:-20px; margin-left:-60px;
+      -webkit-animation:slide 3s -1.2s ease-in-out infinite;
+      animation:slide 3.4s -1.2s ease-in-out infinite;
+    }
+    &:nth-of-type(4) {
+      height:45px; width:45px;
+      margin-top:-32px; margin-left:-72px;
+      -webkit-animation:slide 3s -0.9s ease-in-out infinite;
+      animation:slide 3.4s -0.9s ease-in-out infinite;
+      background-image: url(../../images/technology/css-3.png);
+      background-size: contain;
+    }
+    &:nth-of-type(3) {
+      height:50px; width:50px;
+      margin-top:-40px; margin-left:-80px;
+      -webkit-animation:slide 3s -0.6s ease-in-out infinite;
+      animation:slide 3.4s -0.6s ease-in-out infinite;
+    }
+    &:nth-of-type(2) {
+      height:55px; width:55px;
+      margin-top:-52px; margin-left:-92px;
+      -webkit-animation:slide 3s -0.3s ease-in-out infinite;
+      animation:slide 3.4s -0.3s ease-in-out infinite;
+      background-image: url(../../images/technology/html-5.png);
+      background-size: contain;
+    }
+    &:nth-of-type(1) {
+      height:60px; width:60px;
+      margin-top:-60px; margin-left:-100px;
+      -webkit-animation:slide 3s ease-in-out infinite;
+      animation:slide 3.4s ease-in-out infinite;
+    }
+  }
+}

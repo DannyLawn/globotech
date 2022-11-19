@@ -1,0 +1,48 @@
+@keyframes move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 0;
+  }
+}
+
+@-webkit-keyframes move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 20% 0;
+  }
+}
+
+
+.lineFx {
+  background-color: #111;
+  margin-top: auto;
+  height: auto;
+
+  &__row {
+    height: 11px;
+
+    &_size_l {
+      background-image: url(../../images/effects/line_l.svg);
+      animation: move 8s linear infinite alternate;
+    }
+
+    &_size_m {
+      background-image: url(../../images/effects/line_m.svg);
+      animation: move 5s linear infinite alternate;
+    }
+
+    &_size_s {
+      background-image: url(../../images/effects/line_s.svg);
+      animation: move 7s linear infinite alternate;
+    }
+
+    &_size_xs {
+      background-image: url(../../images/effects/line_xs.svg);
+      animation: move 5s linear infinite alternate;
+    }
+  }
+}

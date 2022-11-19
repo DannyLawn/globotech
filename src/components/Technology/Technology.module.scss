@@ -1,0 +1,28 @@
+.technology {
+  border-top: 2px solid #26ffaf7b;
+  background: linear-gradient(180deg, #09393920,#96969619,#ededed33,#ffffffbb,#ffffff); 
+  padding: 75px 0 100px;
+
+  &__item {
+    position: relative;
+  }
+
+  &__items {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  &__paragraph {
+    max-width: 330px;
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: default;
+    margin: 0;
+    color: rgb(78, 78, 78);
+    text-align: center;
+    padding-top: 10px;
+  }
+}

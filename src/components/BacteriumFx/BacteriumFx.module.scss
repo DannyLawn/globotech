@@ -1,0 +1,76 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bacteriumFx {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(0, 50%);
+
+  &__dots {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 490px;
+    height: 460px;
+    margin-top: -245px;
+    margin-left: -240px;
+
+    &_size_l {
+      animation: rotation 20s infinite ease-in-out;
+    }
+    &_size_m {
+      animation: rotation 30s infinite ease-in-out;
+    }
+    &_size_s {
+      animation: rotation 40s infinite ease-in-out;
+    }
+  }
+
+  &__star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    &_size_l {
+      width: 420px;
+      height: 420px;
+      margin-left: -210px;
+      margin-top: -210px;
+      animation: rotation 30s infinite linear;
+    }
+
+    &_size_m {
+      width: 420px;
+      height: 420px;
+      margin-left: -210px;
+      margin-top: -210px;
+      animation: rotation 20s infinite linear; 
+    }
+
+    &_size_s {
+      width: 310px;
+      height: 310px;
+      margin-left: -155px;
+      margin-top: -155px;
+      animation: rotation 40s infinite linear;
+    }
+  }
+}
