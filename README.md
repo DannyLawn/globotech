@@ -21,7 +21,9 @@
 * Дальнейшее развитие существующих и новых разделов
 
 -------- 
-#UPD: Globotech (React, Redux)
+       
+UPD: Globotech (React, Redux)
+--------
  [Страница поекта](https://dannylawn.github.io/globotech/)
  
  ### Используемые технологии
