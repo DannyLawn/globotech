@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/globotech/static/css/main.4efb82d7.css",
+    "main.css": "/globotech/static/css/main.1ccfebba.css",
     "main.js": "/globotech/static/js/main.c151925a.js",
     "static/media/design.jpg": "/globotech/static/media/design.131e439d24b3bed8721e.jpg",
     "static/media/develop.jpg": "/globotech/static/media/develop.5b97baf032e65ad04074.jpg",
@@ -33,11 +33,11 @@
     "static/media/line_m.svg": "/globotech/static/media/line_m.3753ec8d455da60f5209.svg",
     "static/media/line_xs.svg": "/globotech/static/media/line_xs.0876a6e49c90033976ab.svg",
     "index.html": "/globotech/index.html",
-    "main.4efb82d7.css.map": "/globotech/static/css/main.4efb82d7.css.map",
+    "main.1ccfebba.css.map": "/globotech/static/css/main.1ccfebba.css.map",
     "main.c151925a.js.map": "/globotech/static/js/main.c151925a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4efb82d7.css",
+    "static/css/main.1ccfebba.css",
     "static/js/main.c151925a.js"
   ]
 }
