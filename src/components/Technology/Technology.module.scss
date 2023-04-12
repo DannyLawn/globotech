@@ -23,6 +23,21 @@
     margin: 0;
     color: rgb(78, 78, 78);
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 20px;
   }
+}
+
+@media screen and (max-width: 960px) {
+  .technology__items {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .technology {
+    padding-top: 100px;
+  }
+
+ 
+  
 }

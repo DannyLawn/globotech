@@ -3,7 +3,7 @@
   background-color: #111;
   flex: 0 0 auto;
   min-height: max-content;
-  
+
   &__caption {
     margin: 15px auto 0;
     box-sizing: border-box;
@@ -77,4 +77,16 @@
     cursor: default;
   }
 }
- 
+
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer__socialTitle {
+    text-align: center;
+  }
+
+}

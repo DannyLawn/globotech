@@ -100,3 +100,23 @@
     }
   }
 }
+
+@media screen and (max-width: 808px) {
+  .header__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .header__navItems {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header__logo {
+    width: 250px;
+  }
+  
+}

@@ -111,3 +111,17 @@
     text-transform: uppercase;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .titleScrollerFx__intro {
+    font-size: 2rem;
+  }
+
+  .titleScrollerFx__title {
+    font-size: 2rem;
+  }
+
+  .titleScrollerFx__text {
+    font-size: 1.5rem;
+  }
+ }

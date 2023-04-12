@@ -34,3 +34,13 @@
     margin: 0;
   }
  }
+
+ @media screen and (max-width: 600px) {
+  .contacts {
+   flex-direction: column;
+   gap: 50px;
+   padding: 60px 0 100px;
+  }
+ 
+ }
+  

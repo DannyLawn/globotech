@@ -45,3 +45,19 @@
   }
 
 }
+
+@media screen and (max-width: 606px) {
+  .projects__subscription {
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px auto;
+  }  
+ 
+ }
+
+ @media screen and (max-width: 500px) {
+  .projects__subscription {
+    max-width: 250px;
+  }  
+ 
+ }

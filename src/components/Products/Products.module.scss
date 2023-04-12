@@ -100,3 +100,9 @@
   }
   
 }
+
+@media screen and (max-width: 600px) {
+  .products__item {
+   margin: 0 10px;
+  }
+ }

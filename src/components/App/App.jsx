@@ -18,7 +18,7 @@ function App() {
   
   useEffect(() => {
     dispatch(openMainPage());
-  }, []);
+  }, [dispatch]);
 
   const { headerState, lineFxState, footerState, descriptionState,
     technologyState, productsState, projectsState, contactsState,
@@ -34,9 +34,9 @@ function App() {
         {projectsState && (<Projects />)}
         {contactsState && (<Contacts />)}
       </main>
+      {aboutUsState && (<AboutUs />)}
       {lineFxState && (<LineFx />)}
       {footerState && (<Footer />)}
-      {aboutUsState && (<AboutUs />)}
     </div>
   );
 }
