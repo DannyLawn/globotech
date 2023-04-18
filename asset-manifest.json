@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/globotech/static/css/main.a8c8c866.css",
-    "main.js": "/globotech/static/js/main.ecc1b0f1.js",
-    "static/media/design.jpg": "/globotech/static/media/design.131e439d24b3bed8721e.jpg",
-    "static/media/develop.jpg": "/globotech/static/media/develop.5b97baf032e65ad04074.jpg",
-    "static/media/support.jpg": "/globotech/static/media/support.56cdd8bfe0825724345c.jpg",
+    "main.css": "/globotech/static/css/main.ba78ba46.css",
+    "main.js": "/globotech/static/js/main.96f605ef.js",
+    "static/media/develop.jpg": "/globotech/static/media/develop.47e21199b0c97c3c9bbb.jpg",
+    "static/media/design.jpg": "/globotech/static/media/design.70efa676159f8b7d8e77.jpg",
+    "static/media/support.jpg": "/globotech/static/media/support.133ff3a29de190860fb6.jpg",
     "static/media/Inter-Bold.woff": "/globotech/static/media/Inter-Bold.1c3dfbb05cd4ae02710e.woff",
     "static/media/Inter-SemiBold.woff": "/globotech/static/media/Inter-SemiBold.25b1ffc9587070462342.woff",
     "static/media/about-us.jpg": "/globotech/static/media/about-us.05c238c02420f4eec7bb.jpg",
@@ -12,13 +12,11 @@
     "static/media/Inter-SemiBold.woff2": "/globotech/static/media/Inter-SemiBold.625474d6ebbfe4e3b0ae.woff2",
     "static/media/Inter-Bold.woff2": "/globotech/static/media/Inter-Bold.a808c21aaa221f6d24f9.woff2",
     "static/media/Inter-Regular.woff2": "/globotech/static/media/Inter-Regular.6cc68d6b835a3dd06e7e.woff2",
+    "static/media/github.png": "/globotech/static/media/github.58b1bba8c8e4128972bb.png",
     "static/media/logo.png": "/globotech/static/media/logo.a3cbadc8a9bc3f4319a3.png",
     "static/media/logo_white.png": "/globotech/static/media/logo_white.13b065bf027d878b26e2.png",
-    "static/media/github.ico": "/globotech/static/media/github.5a849c3c0cc240242101.ico",
-    "static/media/react.png": "/globotech/static/media/react.3dc94f56331719c542f1.png",
     "static/media/GBTH_icon_white.png": "/globotech/static/media/GBTH_icon_white.f9c0a912ea98a6efec73.png",
-    "static/media/css-3.png": "/globotech/static/media/css-3.4b932b5247ee25372455.png",
-    "static/media/html-5.png": "/globotech/static/media/html-5.9717b5c9d67e69d843ec.png",
+    "static/media/react.png": "/globotech/static/media/react.301e9abef69f025a9e7a.png",
     "static/media/GBTH_icon_SVG (white).svg": "/globotech/static/media/GBTH_icon_SVG (white).a9e436723504a174c7f9bbeab3c206cd.svg",
     "static/media/dots_3.svg": "/globotech/static/media/dots_3.47f296c835867433b64ada25ee6dd307.svg",
     "static/media/dots_2.svg": "/globotech/static/media/dots_2.c8e923b52cc812b82d0c99ccaeaaaff0.svg",
@@ -33,11 +31,11 @@
     "static/media/line_m.svg": "/globotech/static/media/line_m.3753ec8d455da60f5209.svg",
     "static/media/line_xs.svg": "/globotech/static/media/line_xs.0876a6e49c90033976ab.svg",
     "index.html": "/globotech/index.html",
-    "main.a8c8c866.css.map": "/globotech/static/css/main.a8c8c866.css.map",
-    "main.ecc1b0f1.js.map": "/globotech/static/js/main.ecc1b0f1.js.map"
+    "main.ba78ba46.css.map": "/globotech/static/css/main.ba78ba46.css.map",
+    "main.96f605ef.js.map": "/globotech/static/js/main.96f605ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c8c866.css",
-    "static/js/main.ecc1b0f1.js"
+    "static/css/main.ba78ba46.css",
+    "static/js/main.96f605ef.js"
   ]
 }
