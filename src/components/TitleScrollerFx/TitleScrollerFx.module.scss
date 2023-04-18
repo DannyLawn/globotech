@@ -124,4 +124,19 @@
   .titleScrollerFx__text {
     font-size: 1.5rem;
   }
+
+  .titleScrollerFx {
+    animation: scroller 240s linear 11s;
+  }
+ }
+
+ @media screen and (max-width: 460px) {
+ 
+  .titleScrollerFx {
+    animation: scroller 140s linear 11s;
+  }
+
+  .titleScrollerFx__intro {
+    font-size: 1.5rem;
+  }
  }

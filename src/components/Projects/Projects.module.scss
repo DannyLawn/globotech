@@ -4,6 +4,7 @@
   background-image: linear-gradient(rgba(238, 238, 238, 0.44), #fff);
   min-width: 320px;
   min-height: 88%;
+  padding-bottom: 60px;
 
   &__accent {
     font-weight: 600;
@@ -12,7 +13,9 @@
   &__link {
     display: block;
     text-decoration: none;
-    background: url(../../images/social/github.ico) center / contain no-repeat;
+    //прячем text-content ссылки через text-indent
+    text-indent: -9999px;
+    background: url(../../images/social/github.png) center / contain no-repeat;
     width: 100px;
     height: 100px;
     cursor: pointer;

@@ -1,5 +1,5 @@
 .header {
-  padding: 15px 0 25px;
+  padding: 15px 0 35px;
   min-height: max-content;
 
   &__container {
@@ -56,12 +56,14 @@
     line-height: 24px;
     font-size: 18px;
     font-weight: normal;
+    width: max-content;
     cursor: pointer;
+    margin: 0 auto;
     will-change: transform, opacity;
     transition: transform .9s ease-in, color .9s ease-in;
 
     &:hover {
-      transform: scale(1.03);
+      transform: scale(1.02);
       color: #000;
     }
   }
@@ -75,10 +77,6 @@
     text-decoration: none;
     color: rgb(41, 41, 41);
     margin-right: 40px;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
 
     &_active {
       pointer-events: none;

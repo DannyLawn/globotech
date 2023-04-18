@@ -14,17 +14,17 @@
 
   &__subtitle {
     line-height: 19px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 0 0 10px;
     padding-left: 6%;
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 420px;
     display: block;
     position: relative;
     cursor: default;
     z-index: 1;
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   &__wrapper {
@@ -42,7 +42,11 @@
  .description__subtitle {
   margin-bottom: 20px;
   max-width: 360px;
+  font-weight: 500;
+  padding: 0 20px;
+  font-size: 16px;
  }
+ 
 
  .description__wrapper {
   width: 100%;
