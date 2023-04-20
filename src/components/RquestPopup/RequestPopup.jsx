@@ -75,12 +75,12 @@ const sendEmail = (e) => {
 
           handleClosePopup();  
           dispatch(successfulSending());
-          dispatch(updateMessage('Заявка отправлена!')); 
+          dispatch(updateMessage('The application has been sent!')); 
           window.scrollTo(0, 0);             
 
       }, (error) => {
           dispatch(failedSending());
-          dispatch(updateMessage(`Ошибка: ${error.status}. Пожалуйста, попробуйте позже`)); 
+          dispatch(updateMessage(`Error: ${error.status}. Please, try again later`)); 
       });
 
 };
@@ -129,7 +129,7 @@ const sendEmail = (e) => {
             </ul>
           </fieldset>
           <div className={styles.submitContainer}>
-            {submitDisabled ? (<button className={`${styles.popupSubmitButton}  ${styles.popupSubmitButton_disabled}`} disabled >Отправить</button>) : (sendingRequest ? (<p className={styles.requestLoading}>Обработка данных</p>) : (<button className={styles.popupSubmitButton} type="submit" >Отправить</button>))}
+            {submitDisabled ? (<button className={`${styles.popupSubmitButton}  ${styles.popupSubmitButton_disabled}`} disabled >Send</button>) : (sendingRequest ? (<p className={styles.requestLoading}>Data processing</p>) : (<button className={styles.popupSubmitButton} type="submit" >Send</button>))}
           </div>
 
         </form>
