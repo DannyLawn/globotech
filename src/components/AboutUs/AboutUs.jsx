@@ -10,7 +10,7 @@ export const AboutUs = () => {
 
   return (
     <section className={styles.aboutUs}>
-      <nav class="back-to-main" className={styles.backToMain}>
+      <nav className={styles.backToMain}>
         <a className={styles.backToMain__link} onClick={()=>dispatch(openMainPage())}>
           <p className={styles.backToMain__text}>⟵</p>
           <img className={styles.backToMain__img} src={LogoWhite} alt="The planet-globotech logo." />

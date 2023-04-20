@@ -10,7 +10,10 @@ import { AboutUs } from '../AboutUs/AboutUs';
 import { LineFx } from '../LineFx/LineFx';
 import { Footer } from '../Footer/Footer';
 import { openMainPage } from '../../services/slices/app-navigation-slice';
+import RequestPopup from '../RquestPopup/RequestPopup';
+import RequestButton from '../RequestButton/RequestButton';
 import './App.scss';
+
 
 function App() {
 
@@ -23,10 +26,15 @@ function App() {
   const { headerState, lineFxState, footerState, descriptionState,
     technologyState, productsState, projectsState, contactsState,
     aboutUsState } = useSelector(store => store.appNavigation);
+
+  const {popupState} = useSelector(store => store.requestForm)
+  
  
   return (
     <div className="App">
       {headerState && (<Header />)}
+      {!aboutUsState && <RequestButton />}
+      {popupState && <RequestPopup />}
       <main className="App__content">
         {descriptionState && (<Description />)}
         {technologyState && (<Technology />)}

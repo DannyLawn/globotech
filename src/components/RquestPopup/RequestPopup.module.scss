@@ -1,0 +1,286 @@
+.popup {
+  box-sizing: inherit;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  will-change: opacity, visibility;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.9s, visibility 0s 0.9s ease-in;
+
+  &_opened {
+    visibility: visible;
+    pointer-events: all;
+    opacity: 1;
+    will-change: opacity, visibility;
+    transition: opacity 0.4s, visibility 0.4s ease-in;
+  }
+
+  &Container {
+    position: relative;
+  box-sizing: inherit;
+  background-color: #fff;
+  width: 100%;
+  max-width: 740px;
+  max-height: max-content;
+  border-radius: 30px;
+  padding: 33px 33px 53px;
+  margin-top: 8px;
+  z-index: 3;
+  will-change: transform;
+  transform: translateX(104%) scale(0);
+  opacity: 0;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+
+  &Container_opened {
+    will-change: transform, opacity;
+    transform: translateY(0%) scale(100%);
+    opacity: 1;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+
+  &__toggle {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 32px;
+    height: 32px;
+    background: url(../../images/close-icon.svg) no-repeat center / contain;
+    padding: 0;
+    border: none;
+    transition: opacity .14s ease-in;
+    cursor: pointer;
+    display: block;
+  }
+  
+  &__toggle:hover {
+    opacity: .6;
+  }
+
+  &TitleMain {
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &SubmitButton {
+    margin-top: 40px;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: 500;
+    max-width: 50%;
+    background-color: #27FFB1;
+    color: white;
+    cursor: pointer;
+    will-change: background-color;
+    transition: all .1s ease-out;
+  }
+
+  &SubmitButton:hover {
+    background-color: #1ccc8c;
+  }
+  
+  &SubmitButton_disabled {
+    cursor: default;
+    background-color: #11323a6b;
+  }
+  
+  &SubmitButton_disabled:hover {
+    background-color: #11323a6b;
+  }
+
+  // &CaptionSubmit {
+  //   margin: 40px 0 0;
+  // }
+  
+
+  &List {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 25px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+  
+  }
+  
+  &ListItem {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+  }
+
+  &InputContainer {
+    height: 25px;
+    min-width: 60%;
+    max-width: 80%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #082c25;
+  }
+
+  
+}
+
+
+.listContainer {
+  border-radius: 20px;
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #26FFAF;
+}
+.legendContainer {
+  color:#25eda3; ;
+}
+
+.requestLoading {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 44px 0 0 35%;
+  color: #1fce8e;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: default;
+}
+
+.requestLoading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "\2026";
+  /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 20px;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 20px;
+  }
+}
+
+.listItemTitle {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: end;
+  min-width: 140px;
+}
+
+.descriptionContainer {
+  width: 240px;
+  min-width: 150px;
+  min-height: 70px;
+  max-width: 400px;
+  max-height: 150px;
+  height: 120px;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+  .popup__toggle {
+    right: 0px;
+    top: -35px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .popup__toggle {
+    top: 15px;
+    right: 20px;
+    background: url(../../images/close-icon-black.svg) no-repeat center / contain;
+    width: 28px;
+    height: 28px;
+  }
+ 
+}
+
+@media screen and (max-width: 836px) {
+  
+  .popupContainer {
+    padding: 33px 10px;
+    max-height: 98vh;
+    overflow-y: hidden;
+  }
+}
+ 
+@media screen and (max-width: 575px) {
+  .popupContainer {
+    padding: 20px 10px;
+    max-height: 98vh;
+    overflow-y: hidden;
+  }
+
+  .popupTitleMain {
+    margin-bottom: 15px;
+  }
+
+  .popupSubmitButton {
+    padding: 15px 25px;
+    max-width: 80%;
+    margin-top: 10px;
+  }
+
+  .requestLoading {
+    margin: 44px 0 0 30%;
+    font-size: 18px;
+  }
+
+  // .popupCaptionSubmit {
+  //   margin-top: 20px;
+  //   text-align: right;
+  // }
+
+  .popupListItem {
+    flex-direction: column;
+  }
+
+  .listItemTitle {
+    text-align: start;
+    align-self: flex-start;
+  }
+
+  .popupInputContainer {
+    max-width: 90%;
+  }
+
+
+}
+
+@media screen and (max-width: 390px) {
+  .requestLoading {
+    margin: 20px 0 0 20%;
+  }
+}

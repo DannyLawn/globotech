@@ -1,0 +1,22 @@
+.requestButton {
+  position: fixed;
+  transform: rotate(270deg);
+  right: -7px;
+  top: 40%;
+  background: url('../../images/mail.png')  center / contain no-repeat;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  z-index: 5;
+  transition: all .1s ease-out;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &_openedPopup {
+    background: url('../../images/mailLoad.png')  center / contain no-repeat;
+    opacity: .7;
+  }
+}
+ 
