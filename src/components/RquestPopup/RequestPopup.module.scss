@@ -123,7 +123,6 @@
   &ListItem {
     display: flex;
     justify-content: center;
-    gap: 10px;
     width: 90%;
   }
 
@@ -201,12 +200,22 @@
   min-height: 70px;
   max-width: 400px;
   max-height: 150px;
-  height: 120px;
+  height: 100px;
 }
 
 .submitContainer {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-height:600px) {
+  .popup__toggle {
+  top: 30px;
+  right: 20px;
+  background: url(../../images/close-icon-black.svg) no-repeat center / contain;
+    width: 28px;
+    height: 28px;
+  }
 }
 
 
@@ -238,7 +247,7 @@
   }
 
   .popupTitleMain {
-    margin-bottom: 15px;
+    margin-bottom: 2px;
   }
 
   .popupSubmitButton {
