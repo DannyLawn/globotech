@@ -12,6 +12,7 @@ import { Footer } from '../Footer/Footer';
 import { openMainPage } from '../../services/slices/app-navigation-slice';
 import RequestPopup from '../RquestPopup/RequestPopup';
 import RequestButton from '../RequestButton/RequestButton';
+import MessageBoard from '../MessageBoard/MessageBoard';
 import './App.scss';
 
 
@@ -27,7 +28,7 @@ function App() {
     technologyState, productsState, projectsState, contactsState,
     aboutUsState } = useSelector(store => store.appNavigation);
 
-  const {popupState} = useSelector(store => store.requestForm)
+  const {popupState, sendingAnApplication } = useSelector(store => store.requestForm)
   
  
   return (
@@ -35,6 +36,7 @@ function App() {
       {headerState && (<Header />)}
       {!aboutUsState && <RequestButton />}
       {popupState && <RequestPopup />}
+      {sendingAnApplication  && <MessageBoard /> }
       <main className="App__content">
         {descriptionState && (<Description />)}
         {technologyState && (<Technology />)}

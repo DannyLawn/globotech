@@ -155,7 +155,7 @@
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  margin: 44px 0 0 35%;
+  margin: 44px 0 25px 35%;
   color: #1fce8e;
   text-align: center;
   text-transform: uppercase;
@@ -209,12 +209,6 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 991px) {
-  .popup__toggle {
-    right: 0px;
-    top: -35px;
-  }
-}
 
 @media screen and (max-width: 890px) {
   .popup__toggle {
@@ -274,6 +268,11 @@
 
   .popupInputContainer {
     max-width: 90%;
+  }
+
+  .popup__toggle {
+    width: 24px;
+    height: 24px;
   }
 
 

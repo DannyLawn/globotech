@@ -1,0 +1,57 @@
+.messageBoard {
+  position: absolute;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 240px;
+  background-color: #14ea9c;
+  padding: 20px 10px;
+  border-radius: 25px;
+  border: 1px solid #1fd190;
+  box-shadow: 0 0 40px #27FFB1;
+  will-change: opacity;
+  animation: showErr .6s forwards ease-in-out, hideErr .6s forwards 3s ease-in-out;
+  z-index: 4;
+
+  &_error {
+    background-color: #ae2750e1;
+    border: 1px solid #ae3343;
+    box-shadow: 0 0 40px #ae3358;
+  }
+
+  &TextContent {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-align: center;
+  }
+}
+ 
+
+@keyframes showErr {
+  from {
+    top: -10px;
+    opacity: 0;
+  }
+
+  to {
+    top: 100px;
+    opacity: 1;
+  }
+}
+
+@keyframes hideErr {
+  from {
+    top: 100px;
+    opacity: 1;
+  }
+
+  to {
+    top: -10px;
+    opacity: 0;
+  }
+}

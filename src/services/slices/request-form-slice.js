@@ -16,6 +16,7 @@ const requestFormSlice = createSlice({
   reducers: {
     openPopup(state){
       state.popupState = true;
+      state.sendingAnApplication = null;
     },
     closePopup(state){
       state.popupState = false;
@@ -32,12 +33,9 @@ const requestFormSlice = createSlice({
         sendingRequest: false
       }
     },
-    failedSending(){
-      return {
-        ...initialState,
-        sendingAnApplication: false,
-        sendingRequest: false
-      }
+    failedSending(state){
+        state.sendingAnApplication= false;
+        state.sendingRequest= false;
     },
     updateMessage(state, action) {
       state.boardMessage = action.payload

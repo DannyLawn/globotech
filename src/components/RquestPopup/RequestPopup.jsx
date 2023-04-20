@@ -3,6 +3,7 @@ import React, { useCallback, useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { closePopup } from '../../services/slices/request-form-slice';
 import { clearError, sendRequest, successfulSending, updateMessage, failedSending  } from '../../services/slices/request-form-slice';
+import MessageBoard from '../MessageBoard/MessageBoard';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 
@@ -11,7 +12,7 @@ const RequestPopup = () => {
   const dispatch = useDispatch();
   const popupElement = useRef(null);
   const containerElement = useRef(null);
-  const { popupState, sendingRequest} = useSelector(store => store.requestForm);
+  const { popupState, sendingRequest, sendingAnApplication} = useSelector(store => store.requestForm);
   const form = useRef(null);
   const [submitDisabled, setSubmitDisabled] = useState(false);
 
@@ -135,6 +136,7 @@ const sendEmail = (e) => {
         <div className={styles.popup__toggle} onClick={() => handleClosePopup()} />
 
       </div>
+      {sendingAnApplication===false && <MessageBoard />}
     </section>
   );
 }
