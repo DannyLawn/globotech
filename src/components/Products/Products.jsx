@@ -1,4 +1,4 @@
-import { initialProducts } from '../../services/products';
+import { initialProducts } from '../../utils/data.js';
 import styles from './Products.module.scss';
 
 export const Products = () => {

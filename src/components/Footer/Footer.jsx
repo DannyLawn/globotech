@@ -8,16 +8,16 @@ export const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footer__container}>
         <div className={styles.footer__socialContainer}>
-          <h3 className={styles.footer__socialTitle}>Social network</h3>
+          <h3 className={styles.footer__socialTitle}>Социальные сети</h3>
           <nav className={styles.footer__navSocial}>
             <ul className={styles.footer__socialItems}>
               <li className={styles.footer__socialItem}>
-                <a href="https://vk.com/dannylawn" className={styles.footer__socialItemLink} target="_blank">
+                <a href="https://vk.com/dannylawn" className={styles.footer__socialItemLink} target="_blank"  rel="noreferrer">
                   <img className={styles.footer__socialImage} src={vkLogo} alt="Logo VK." />Vkontakte
                 </a>
               </li>
               <li className={styles.footer__socialItem}>
-                <a href="https://instagram.com/danny_lawn" className={styles.footer__socialItemLink} target="_blank">
+                <a href="https://instagram.com/danny_lawn" className={styles.footer__socialItemLink} target="_blank"  rel="noreferrer">
                   <img className={styles.footer__socialImage} src={instLogo} alt="Logo polaroid." />Instagram
                 </a>
               </li>

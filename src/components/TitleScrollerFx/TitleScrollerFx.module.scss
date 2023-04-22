@@ -98,9 +98,9 @@
     font-size: 3.5rem;
     width: 100%;
 
-    &_copyright {
-      text-align: right;
-    }
+    // &_copyright {
+    //   text-align: right;
+    // }
   }
 
   &__title {
@@ -126,14 +126,14 @@
   }
 
   .titleScrollerFx {
-    animation: scroller 240s linear 11s;
+    animation: scroller 220s linear 11s;
   }
  }
 
  @media screen and (max-width: 460px) {
  
   .titleScrollerFx {
-    animation: scroller 140s linear 11s;
+    animation: scroller 120s linear 11s;
   }
 
   .titleScrollerFx__intro {

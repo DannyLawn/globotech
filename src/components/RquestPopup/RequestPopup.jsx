@@ -75,12 +75,12 @@ const sendEmail = (e) => {
 
           handleClosePopup();  
           dispatch(successfulSending());
-          dispatch(updateMessage('The application has been sent!')); 
+          dispatch(updateMessage('Заявка отправлена!')); 
           window.scrollTo(0, 0);             
 
       }, (error) => {
           dispatch(failedSending());
-          dispatch(updateMessage(`Error: ${error.status}. Please, try again later`)); 
+          dispatch(updateMessage(`Ошибка: ${error.status}. Пожалуйста, попробуйте позже.`)); 
       });
 
 };
@@ -93,43 +93,43 @@ const sendEmail = (e) => {
       <div className={styles.popupContainer} ref={containerElement} onClick={(e) => e.stopPropagation()}>
 
         <form ref={form}  onSubmit={sendEmail} noValidate>
-          <h1 className={styles.popupTitleMain}>Application</h1>
+          <h1 className={styles.popupTitleMain}>Заявка</h1>
           <fieldset className={styles.listContainer}>
-            <legend className={styles.legendContainer}>Data</legend>
+            <legend className={styles.legendContainer}>Данные</legend>
             <ul className={styles.popupList}>
               <li className={styles.popupListItem}>
-                <label className={styles.listItemTitle} htmlFor="name">Full name:</label>
+                <label className={styles.listItemTitle} htmlFor="name">Имя:</label>
                 <input className={styles.popupInputContainer} type="text" name="name" id="name" value={dataForm.name}
                   onChange={onChange} required />
               </li>
               <li className={styles.popupListItem}>
-                <label className={styles.listItemTitle} htmlFor="email">E-mail:</label>
+                <label className={styles.listItemTitle} htmlFor="email">Электронная почта:</label>
                 <input className={styles.popupInputContainer} type="email" name="mail" id="email" value={dataForm.mail}
                   onChange={onChange} required />
               </li>
               <li className={styles.popupListItem}>
-                <label className={styles.listItemTitle} htmlFor="number">Phone:</label>
+                <label className={styles.listItemTitle} htmlFor="number">Телефон:</label>
                 <input className={styles.popupInputContainer} type="tel" name="phone" id="number" maxLength="21" value={dataForm.phone}
                   onChange={onChange} required />
               </li>
               <li className={styles.popupListItem}>
-                <label className={styles.listItemTitle} htmlFor="type">Option:</label>
+                <label className={styles.listItemTitle} htmlFor="type">Тип:</label>
                 <select className={styles.popupInputContainer} onChange={onChange} name="type" id="type">
-                  <option value="">-- Select an option --</option>
-                  <option value="design">Design development</option>
-                  <option value="web">Creating an adaptive website</option>
-                  <option value="sup">Web project support</option>
+                  <option value="">-- Выберите вид работы --</option>
+                  <option value="design">Разработка дизайна</option>
+                  <option value="web">Cоздание сайта</option>
+                  <option value="sup">Поддержка проектов</option>
                 </select>
               </li>
               <li className={styles.popupListItem}>
-                <label className={styles.listItemTitle} htmlFor="description">Description:</label>
+                <label className={styles.listItemTitle} htmlFor="description">Описание:</label>
                 <textarea className={styles.descriptionContainer} value={dataForm.description} name="description" id='description' onChange={onChange}></textarea>
            
               </li>
             </ul>
           </fieldset>
           <div className={styles.submitContainer}>
-            {submitDisabled ? (<button className={`${styles.popupSubmitButton}  ${styles.popupSubmitButton_disabled}`} disabled >Send</button>) : (sendingRequest ? (<p className={styles.requestLoading}>Data processing</p>) : (<button className={styles.popupSubmitButton} type="submit" >Send</button>))}
+            {submitDisabled ? (<button className={`${styles.popupSubmitButton}  ${styles.popupSubmitButton_disabled}`} disabled >Отправить</button>) : (sendingRequest ? (<p className={styles.requestLoading}>Обработка данных</p>) : (<button className={styles.popupSubmitButton} type="submit" >Отправить</button>))}
           </div>
 
         </form>

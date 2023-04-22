@@ -5,7 +5,7 @@ export const Description = () => {
   return (
     <section className={styles.description}>
       <div className={styles.description__container}>
-        <p className={styles.description__subtitle}>Website development for your target audience. Just what the business needs. Nothing superfluous.</p>
+        <p className={styles.description__subtitle}>Разработка под вашу целевую аудиторию. Ничего лишнего. Только то, что нужно бизнесу. </p>
         <div className={styles.description__wrapper}>
           <BactertiumFx />
         </div>
