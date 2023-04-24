@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/globotech/static/css/main.9cc8d852.css",
-    "main.js": "/globotech/static/js/main.219fdcf4.js",
+    "main.js": "/globotech/static/js/main.de433eb4.js",
     "static/media/develop.jpg": "/globotech/static/media/develop.47e21199b0c97c3c9bbb.jpg",
     "static/media/design.jpg": "/globotech/static/media/design.70efa676159f8b7d8e77.jpg",
     "static/media/support.jpg": "/globotech/static/media/support.133ff3a29de190860fb6.jpg",
@@ -23,7 +23,6 @@
     "static/media/dots_3.svg": "/globotech/static/media/dots_3.47f296c835867433b64ada25ee6dd307.svg",
     "static/media/dots_2.svg": "/globotech/static/media/dots_2.c8e923b52cc812b82d0c99ccaeaaaff0.svg",
     "static/media/dots_1.svg": "/globotech/static/media/dots_1.312bdb03fa9d8e56ff46e895bde5acf0.svg",
-    "static/media/instagram_white.svg": "/globotech/static/media/instagram_white.83c7528ffbf99aa26ba5294df64ac4db.svg",
     "static/media/vk_white.svg": "/globotech/static/media/vk_white.8d8c9a5f4df23485426183b35a40bb5b.svg",
     "static/media/star_1.svg": "/globotech/static/media/star_1.742c11c38899810a2649426ac0e5c9be.svg",
     "static/media/star_2.svg": "/globotech/static/media/star_2.ba2fcf7995c318aade2b671c7dfd83ff.svg",
@@ -36,10 +35,10 @@
     "static/media/close-icon-black.svg": "/globotech/static/media/close-icon-black.e86accd7ee4456c145af.svg",
     "static/media/close-icon.svg": "/globotech/static/media/close-icon.039f1f5203f653b4bacd.svg",
     "main.9cc8d852.css.map": "/globotech/static/css/main.9cc8d852.css.map",
-    "main.219fdcf4.js.map": "/globotech/static/js/main.219fdcf4.js.map"
+    "main.de433eb4.js.map": "/globotech/static/js/main.de433eb4.js.map"
   },
   "entrypoints": [
     "static/css/main.9cc8d852.css",
-    "static/js/main.219fdcf4.js"
+    "static/js/main.de433eb4.js"
   ]
 }
