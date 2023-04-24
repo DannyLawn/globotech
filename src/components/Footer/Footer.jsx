@@ -1,5 +1,5 @@
 import vkLogo from '../../images/social/vk_white.svg';
-import instLogo from '../../images/social/instagram_white.svg';
+// import instLogo from '../../images/social/instagram_white.svg';
 import logoFooter from '../../images/logo_white.png';
 import styles from './Footer.module.scss';
 
@@ -12,15 +12,15 @@ export const Footer = () => {
           <nav className={styles.footer__navSocial}>
             <ul className={styles.footer__socialItems}>
               <li className={styles.footer__socialItem}>
-                <a href="https://vk.com/dannylawn" className={styles.footer__socialItemLink} target="_blank"  rel="noreferrer">
+                <a href="https://vk.com/globotechteam" className={styles.footer__socialItemLink} target="_blank"  rel="noreferrer">
                   <img className={styles.footer__socialImage} src={vkLogo} alt="Logo VK." />Vkontakte
                 </a>
               </li>
-              <li className={styles.footer__socialItem}>
+              {/* <li className={styles.footer__socialItem}>
                 <a href="https://instagram.com/danny_lawn" className={styles.footer__socialItemLink} target="_blank"  rel="noreferrer">
                   <img className={styles.footer__socialImage} src={instLogo} alt="Logo polaroid." />Instagram
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
