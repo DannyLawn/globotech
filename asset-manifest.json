@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/globotech/static/css/main.62f896e6.css",
+    "main.css": "/globotech/static/css/main.909def4e.css",
     "main.js": "/globotech/static/js/main.6dbe5b8a.js",
     "static/media/develop.jpg": "/globotech/static/media/develop.47e21199b0c97c3c9bbb.jpg",
     "static/media/design.jpg": "/globotech/static/media/design.70efa676159f8b7d8e77.jpg",
@@ -12,10 +12,10 @@
     "static/media/Inter-SemiBold.woff2": "/globotech/static/media/Inter-SemiBold.625474d6ebbfe4e3b0ae.woff2",
     "static/media/Inter-Bold.woff2": "/globotech/static/media/Inter-Bold.a808c21aaa221f6d24f9.woff2",
     "static/media/Inter-Regular.woff2": "/globotech/static/media/Inter-Regular.6cc68d6b835a3dd06e7e.woff2",
+    "static/media/mailLoad.png": "/globotech/static/media/mailLoad.6e503dec27c7e63bc3ea.png",
     "static/media/github.png": "/globotech/static/media/github.58b1bba8c8e4128972bb.png",
     "static/media/logo.png": "/globotech/static/media/logo.a3cbadc8a9bc3f4319a3.png",
     "static/media/logo_white.png": "/globotech/static/media/logo_white.13b065bf027d878b26e2.png",
-    "static/media/mailLoad.png": "/globotech/static/media/mailLoad.86f77599bda2155128e0.png",
     "static/media/GBTH_icon_white.png": "/globotech/static/media/GBTH_icon_white.f9c0a912ea98a6efec73.png",
     "static/media/mail.png": "/globotech/static/media/mail.7757af66b7226777fdae.png",
     "static/media/react.png": "/globotech/static/media/react.301e9abef69f025a9e7a.png",
@@ -34,11 +34,11 @@
     "index.html": "/globotech/index.html",
     "static/media/close-icon-black.svg": "/globotech/static/media/close-icon-black.e86accd7ee4456c145af.svg",
     "static/media/close-icon.svg": "/globotech/static/media/close-icon.039f1f5203f653b4bacd.svg",
-    "main.62f896e6.css.map": "/globotech/static/css/main.62f896e6.css.map",
+    "main.909def4e.css.map": "/globotech/static/css/main.909def4e.css.map",
     "main.6dbe5b8a.js.map": "/globotech/static/js/main.6dbe5b8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f896e6.css",
+    "static/css/main.909def4e.css",
     "static/js/main.6dbe5b8a.js"
   ]
 }
