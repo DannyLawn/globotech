@@ -126,14 +126,14 @@
   }
 
   .titleScrollerFx {
-    animation: scroller 220s linear 11s;
+    animation: scroller 160s linear 11s;
   }
  }
 
  @media screen and (max-width: 460px) {
  
   .titleScrollerFx {
-    animation: scroller 120s linear 11s;
+    animation: scroller 20s linear 10s;
   }
 
   .titleScrollerFx__intro {

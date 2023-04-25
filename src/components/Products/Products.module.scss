@@ -87,7 +87,7 @@
   }
 
   &__title {
-    font-size: 26px;
+    font-size: 25px;
     color: #cccccc;
     text-align: center;
     text-transform: uppercase;
@@ -105,5 +105,9 @@
 @media screen and (max-width: 600px) {
   .products__item {
    margin: 0 10px;
+  }
+
+  .products__title {
+    font-size: 22px;
   }
  }

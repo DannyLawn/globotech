@@ -31,7 +31,7 @@
   }
 
   &__socialItem {
-    margin-right: auto;
+    margin:  0 auto;
   }
 
   &__socialItemLink {
@@ -51,7 +51,7 @@
   &__socialItems {
     padding-top: 15px;
     list-style-type: none;
-    padding: 0;
+    padding: 10px 0 0;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
