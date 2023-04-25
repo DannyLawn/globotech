@@ -11,6 +11,7 @@ export const Contacts = () => {
         <h1 className={styles.contacts__title}>Телефон:</h1>
         <a className={styles.contacts__description} href="tel:+79219843445">8 (921) 984-34-45</a>
       </div> */}
+      
     </section>
   );
 }

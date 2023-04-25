@@ -3,6 +3,7 @@ import vkLogo from '../../images/social/vk_white.svg';
 import logoFooter from '../../images/logo_white.png';
 import styles from './Footer.module.scss';
 
+
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
